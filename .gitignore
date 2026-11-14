@@ -1,0 +1,226 @@
+# ==========================================
+# Python bytecode / cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# ==========================================
+# Virtual environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# Environment variables / secrets
+# ==========================================
+.env
+.env.*
+*.env
+
+# Keep example env files if needed
+!.env.example
+
+# ==========================================
+# Packaging / distribution
+# ==========================================
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Installer logs
+# ==========================================
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# Test / coverage / reports
+# ==========================================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ==========================================
+# Type checkers / linters / analyzers
+# ==========================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# PyCharm / JetBrains
+# ==========================================
+.idea/
+
+# ==========================================
+# VS Code
+# ==========================================
+.vscode/
+
+# If you want to keep shared workspace settings, comment the line above
+# and use this instead:
+# .vscode/*
+# !.vscode/settings.json
+# !.vscode/extensions.json
+# !.vscode/launch.json
+# !.vscode/tasks.json
+
+# ==========================================
+# Visual Studio (purple one)
+# ==========================================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ==========================================
+# OS files
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+logs/
+
+# ==========================================
+# SQLite / local databases
+# ==========================================
+*.sqlite3
+*.db
+
+# ==========================================
+# Temporary files
+# ==========================================
+*.tmp
+*.temp
+tmp/
+temp/
+multi_state_parcels_output_v3/
+
+# ==========================================
+# Local output / generated files
+# ==========================================
+output/
+outputs/
+exports/
+generated/
+reports/
+downloads/
+screenshots/
+
+# ==========================================
+# Scraping / automation specific
+# ==========================================
+.chromedriver/
+playwright/.cache/
+.selenium/
+.browser-data/
+user-data-dir/
+profile/
+profiles/
+
+# ==========================================
+# CSV / Excel exports (optional)
+# Uncomment if generated data should NOT be tracked
+# ==========================================
+# *.csv
+# *.xlsx
+# *.xls
+
+# ==========================================
+# Archives
+# ==========================================
+*.zip
+*.tar
+*.gz
+*.bz2
+*.7z
+*.rar
+
+# ==========================================
+# Python build / version managers
+# ==========================================
+.python-version
+
+# ==========================================
+# Static analysis / dependency tools
+# ==========================================
+.pdm.toml
+__pypackages__/
+
+# ==========================================
+# mkdocs / docs build
+# ==========================================
+site/
+
+# ==========================================
+# Flask / Django stuff
+# ==========================================
+instance/
+.webassets-cache/
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# ==========================================
+# FastAPI / Uvicorn / local server artifacts
+# ==========================================
+*.pid
+
+# ==========================================
+# Node (if your Python project also uses frontend tooling)
+# ==========================================
+node_modules/
+
+# ==========================================
+# Misc
+# ==========================================
+*.bak
+*.swp
+*.swo
+*~

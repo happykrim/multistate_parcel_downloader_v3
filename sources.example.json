@@ -1,0 +1,25 @@
+{
+  "NM": {
+    "San Juan": {
+      "url": "https://REPLACE-WITH-AUTHORIZED-COUNTY-PARCEL-ENDPOINT/arcgis/rest/services/Parcels/FeatureServer/0",
+      "where": "1=1",
+      "publisher": "REPLACE with official county GIS or assessor office",
+      "field_map": {
+        "parcel_id": ["ParcelID", "APN"],
+        "full_name": ["OwnerName"],
+        "property_address": ["SiteAddress"],
+        "mailing_line1": ["MailingStreet"],
+        "mailing_city": ["MailingCity"],
+        "mailing_state": ["MailingState"],
+        "mailing_zip": ["MailingZip"],
+        "acres": ["LegalAcres"]
+      }
+    }
+  },
+  "OK": {
+    "Garfield": {
+      "local_file": "C:/GIS/Garfield/approved_parcels.zip",
+      "publisher": "User-provided, authorized GIS export from assessor"
+    }
+  }
+}

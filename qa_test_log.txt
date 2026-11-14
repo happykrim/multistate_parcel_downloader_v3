@@ -1,0 +1,88 @@
+====================================================================================
+MULTI-STATE PARCEL DOWNLOADER v3.0.0
+Targets: NM:San Juan
+Output: /tmp/tmps2pomu2k/out
+Workers: 1 | batch IDs: 200 | geometry acres: auto | minimum acres: 0.0
+Source coverage: WY/CO statewide layers (may omit counties); OK/NM only mapped counties
+====================================================================================
+[NM:San Juan] [LOCAL] 1/1 rows processed
+[NM:San Juan] COMPLETE local: 1 source / 1 production
+
+====================================================================================
+NM:San Juan: completed
+Summary: /tmp/tmps2pomu2k/out/multi_state_summary.json | /tmp/tmps2pomu2k/out/multi_state_summary.csv
+====================================================================================
+MULTI-STATE PARCEL DOWNLOADER v3.0.0
+Targets: NM:San Juan
+Output: /tmp/tmp8lru6vyd/out
+Workers: 1 | batch IDs: 200 | geometry acres: auto | minimum acres: 50.0
+Source coverage: WY/CO statewide layers (may omit counties); OK/NM only mapped counties
+====================================================================================
+[NM:San Juan] COMPLETE local: 3 source / 1 production
+
+====================================================================================
+NM:San Juan: completed
+Summary: /tmp/tmp8lru6vyd/out/multi_state_summary.json | /tmp/tmp8lru6vyd/out/multi_state_summary.csv
+====================================================================================
+MULTI-STATE PARCEL DOWNLOADER v3.0.0
+Targets: CO:Weld
+Output: /tmp/tmpezzxz6w9/out
+Workers: 1 | batch IDs: 2 | geometry acres: never | minimum acres: 0.0
+Source coverage: WY/CO statewide layers (may omit counties); OK/NM only mapped counties
+====================================================================================
+[CO:Weld] ArcGIS layer: Fake Layer | source IDs: 3 | job IDs: 3 | fields: 6
+[CO:Weld] [BATCH 1/2] 2/3 parcel IDs | got 2 | 2,000.0 IDs/s | remaining 1 | ETA 0:00
+[CO:Weld] [BATCH 2/2] 3/3 parcel IDs | got 1 | 2,438.6 IDs/s | remaining 0 | ETA 0:00
+[CO:Weld] COMPLETE: 3 of 3 selected IDs | 3 production rows | 0:00
+
+====================================================================================
+CO:Weld: completed
+Summary: /tmp/tmpezzxz6w9/out/multi_state_summary.json | /tmp/tmpezzxz6w9/out/multi_state_summary.csv
+====================================================================================
+MULTI-STATE PARCEL DOWNLOADER v3.0.0
+Targets: CO:Weld
+Output: /tmp/tmpezzxz6w9/out
+Workers: 1 | batch IDs: 2 | geometry acres: never | minimum acres: 0.0
+Source coverage: WY/CO statewide layers (may omit counties); OK/NM only mapped counties
+====================================================================================
+[CO:Weld] ArcGIS layer: Fake Layer | source IDs: 3 | job IDs: 3 | fields: 6
+[CO:Weld] [RESUME] Batch 1/2 already completed
+[CO:Weld] [RESUME] Batch 2/2 already completed
+[CO:Weld] COMPLETE: 3 of 3 selected IDs | 3 production rows | 0:00
+
+====================================================================================
+CO:Weld: completed
+Summary: /tmp/tmpezzxz6w9/out/multi_state_summary.json | /tmp/tmpezzxz6w9/out/multi_state_summary.csv
+====================================================================================
+MULTI-STATE PARCEL DOWNLOADER v3.0.0
+Targets: CO:Weld
+Output: /tmp/tmp0ip7b09l/out
+Workers: 1 | batch IDs: 200 | geometry acres: never | minimum acres: 0.0
+Source coverage: WY/CO statewide layers (may omit counties); OK/NM only mapped counties
+====================================================================================
+[CO:Weld] ArcGIS layer: Fake Layer | source IDs: 2 | job IDs: 2 | fields: 4
+[CO:Weld] [BATCH 1/1] 2/2 parcel IDs | got 1 | 2,000.0 IDs/s | remaining 0 | ETA 0:00
+[CO:Weld] COMPLETE: 1 of 2 selected IDs | 1 production rows | 0:00
+
+====================================================================================
+CO:Weld: partial_missing_ids
+Summary: /tmp/tmp0ip7b09l/out/multi_state_summary.json | /tmp/tmp0ip7b09l/out/multi_state_summary.csv
+====================================================================================
+MULTI-STATE PARCEL DOWNLOADER v3.0.0
+Targets: CO:Weld
+Output: /tmp/tmp0ip7b09l/out
+Workers: 1 | batch IDs: 200 | geometry acres: never | minimum acres: 0.0
+Source coverage: WY/CO statewide layers (may omit counties); OK/NM only mapped counties
+====================================================================================
+[CO:Weld] ArcGIS layer: Fake Layer | source IDs: 2 | job IDs: 2 | fields: 4
+[CO:Weld] [RESUME] Retrying incomplete batch 1: 1 object IDs were missing last time
+[CO:Weld] [BATCH 1/1] 2/2 parcel IDs | got 2 | 1,549.7 IDs/s | remaining 0 | ETA 0:00
+[CO:Weld] COMPLETE: 2 of 2 selected IDs | 2 production rows | 0:00
+----------------------------------------------------------------------
+Ran 13 tests in 0.263s
+
+OK
+
+====================================================================================
+CO:Weld: completed
+Summary: /tmp/tmp0ip7b09l/out/multi_state_summary.json | /tmp/tmp0ip7b09l/out/multi_state_summary.csv

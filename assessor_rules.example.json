@@ -1,0 +1,29 @@
+{
+  "OK": {
+    "Example Future County": {
+      "type": "bulk",
+      "local_file": "C:/Data/official_assessor_sample.csv",
+      "stages": [
+        {
+          "kind": "custom_bulk",
+          "parcel_field": "PARCEL_NUMBER",
+          "account_field": "ACCOUNT_NUMBER",
+          "field_map": {
+            "parcel_id": ["PARCEL_NUMBER"],
+            "account_id": ["ACCOUNT_NUMBER"],
+            "full_name": ["OWNER_NAME"],
+            "mailing_line1": ["MAIL_STREET"],
+            "mailing_city": ["MAIL_CITY"],
+            "mailing_state": ["MAIL_STATE"],
+            "mailing_zip": ["MAIL_ZIP"],
+            "property_address": ["SITE_ADDRESS"],
+            "property_city": ["SITE_CITY"],
+            "property_zip": ["SITE_ZIP"],
+            "acres": ["LEGAL_ACRES"],
+            "market_value": ["MARKET_VALUE"]
+          }
+        }
+      ]
+    }
+  }
+}
