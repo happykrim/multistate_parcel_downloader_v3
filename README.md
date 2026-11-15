@@ -1,6 +1,6 @@
 # Multi-State Parcel Downloader v3.1
 
-**States:** Wyoming (WY), Oklahoma (OK), Colorado (CO), New Mexico (NM). This is an updated version of your v3.0 script, with county-specific assessor enrichment and a generalized data-quality fallback. It does **not** claim that every county in Oklahoma or New Mexico has a configured public source.
+**States:** Wyoming (WY), Oklahoma (OK), Colorado (CO), New Mexico (NM). This is an updated version of our v3.0 script, with county-specific assessor enrichment and a generalized data-quality fallback. It does **not** claim that every county in Oklahoma or New Mexico has a configured public source.
 
 **Important:** The supplied 24 automated tests are **offline tests** (including synthetic assessor archives and mocked ArcGIS results). Live bulk enrichment against the official county sources has **not** been verified from the development environment. Every real run writes matching statistics and recovery warnings so its success can be measured.
 
